@@ -46,18 +46,22 @@
    background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
   background-position:right;
+  background-position: cover;
+  background-position: camera;
   background-position:calc(100% - 130px);
-  max-height: 475px
+  /* max-height: 475px */
   ;
  }
  .banner img{
   margin-right: 165px;
+  max-width: 100%;
   
  }
-.banner-container{
-  /* max-width: 582px;
-  max-height: 270px; */
-}
+
+/* .banner-container{
+  max-width: 582px;
+  max-height: 270px;
+} */
  .banner-title{
  font-size: 3.25rem;
  font-weight: bold;
