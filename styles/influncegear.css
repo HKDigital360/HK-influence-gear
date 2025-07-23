@@ -31,6 +31,107 @@
     margin-right: 34px;
     
 }
-/* .nav-links {
-    text-decoration:none;
-} */
+.nav-links {
+    /* width: 463px;
+    height: 36px; */
+  }
+ /* banner class */
+ .banner{
+   justify-content: space-between;
+   margin: 145px 132px 0 120px;
+ }
+ .banner img{
+  margin-right: 165px;
+  
+ }
+.banner-container{
+  max-width: 582px;
+  max-height: 270px;
+}
+ .banner-title{
+ font-size: 3.25rem;
+ font-weight: bold;
+ }
+ .banner-des{
+  font-size: 1rem;
+  font-weight:400;
+ }
+ .bg-image{
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-position:calc(100% - 285px);
+  /* background-position-x: 833px; */
+  /* background-position-y: 181px; */
+  /* margin-right: 165px; */
+  margin-top: 50px;
+  /* margin-left: 833px; */
+ }
+
+ /* button class */
+ .btn-primary{
+  background-color: #E02C6D;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 24px 10px;
+  /* width: 144px; */
+  /* height: 44px; */
+  border-radius: 41px;
+  border: none;
+
+ }
+
+.clients{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: auto ;
+  /* width: fit-content; */
+  max-width:1110px;
+  height: 110px;
+  text-align: center;
+}
+ .clients-logo {
+    display: flex;
+    justify-content: center; /* centers images horizontally */
+    align-items: center;     /* centers vertically if you add a fixed height */
+    /* flex-wrap: wrap;         allows wrapping on small screens */
+    gap: 61px;               /* optional spacing between logos */
+    padding: 35px 61px;           /* optional inner spacing */
+
+}
+.collection-title{
+  text-align: center;
+}
+.collection-container{
+  gap: 30px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* margin: 0 auto; */
+justify-content: center;
+align-items: center;
+justify-items: center;
+/* text-align: center; */
+
+}
+.items{
+border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.25);
+  width: 329px;
+  height: 476px;
+  /* gap: 30px; */
+  align-items: center;
+/* justify-items: center; */
+padding: 14px;
+
+}
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main section{
+margin-top: 130px;
+}
+.items img{
+  /* margin: 17px 15px 203px 14px; */
+}
